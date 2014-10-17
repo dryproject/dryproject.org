@@ -71,7 +71,7 @@ release = '2014-10-13'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['.build', 'README.rst']
+exclude_patterns = ['.build', '.themes', 'README.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -103,22 +103,44 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
+#html_theme = 'default'
+html_theme = 'drymanual'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+  'display_github': True,
+  'github_user': 'dryproject',
+  'github_repo': 'dryproject.org',
+  'github_version': 'HEAD',
+  'display_bitbucket': False,
+  'bitbucket_user': 'dryproject',
+  'bitbucket_repo': 'dryproject.org',
+  'bitbucket_version': 'HEAD',
+  #'google_analytics': '',
+}
+html_context = {
+  'conf_py_path': '.',
+  'source_suffix': source_suffix,
+  'show_release': False, # TODO
+  'versions': [(release, '#')], # TODO
+  'downloads': [
+    ('PDF',  '#'),
+    ('HTML', '#'),
+    ('EPUB', '#'),
+  ]
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
+html_theme_path = ['.themes']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 html_title = "DRY Project Manual"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
+html_short_title = "DRY Project"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
