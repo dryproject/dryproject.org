@@ -5,6 +5,7 @@ The DRY Project
 .. toctree::
    :maxdepth: 2
 
+   intro
    guide
 
 Indices and Tables
