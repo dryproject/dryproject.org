@@ -6,7 +6,8 @@ The DRY Project
    :maxdepth: 2
 
    intro
-   guide
+   c++
+   lisp
 
 Indices and Tables
 ==================

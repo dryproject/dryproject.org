@@ -1,2 +1,0 @@
-Common Lisp Naming Conventions
-==============================
