@@ -8,3 +8,4 @@ C/C++ Guide
    Project Structure <c++/structure>
    Naming Conventions <c++/naming>
    Coding Conventions <c++/coding>
+   Static Analysis <c++/analysis>

@@ -8,3 +8,4 @@ Common Lisp Guide
    Project Structure <lisp/structure>
    Naming Conventions <lisp/naming>
    Coding Conventions <lisp/coding>
+   Static Analysis <lisp/analysis>
