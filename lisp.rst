@@ -5,6 +5,6 @@ Common Lisp Guide
 .. toctree::
    :maxdepth: 2
 
-   lisp/structure
-   lisp/naming
-   lisp/coding
+   Project Structure <lisp/structure>
+   Naming Conventions <lisp/naming>
+   Coding Conventions <lisp/coding>

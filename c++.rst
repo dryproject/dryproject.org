@@ -5,6 +5,6 @@ C/C++ Guide
 .. toctree::
    :maxdepth: 2
 
-   c++/structure
-   c++/naming
-   c++/coding
+   Project Structure <c++/structure>
+   Naming Conventions <c++/naming>
+   Coding Conventions <c++/coding>
